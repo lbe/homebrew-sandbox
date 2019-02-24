@@ -1,4 +1,4 @@
-class Inkscape < Formula
+class InkscapeLbe < Formula
   desc "Professional vector graphics editor"
   homepage "https://inkscape.org/"
   url "https://inkscape.org/gallery/item/13330/inkscape-0.92.4_A6N0YOn.tar.bz2"
