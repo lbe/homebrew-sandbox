@@ -2,6 +2,7 @@ class InkscapeLbe < Formula
   desc "Professional vector graphics editor"
   homepage "https://inkscape.org/"
   url "https://inkscape.org/gallery/item/13330/inkscape-0.92.4_A6N0YOn.tar.bz2"
+  sha256 "57ec2da8177b36614a513e2822efd73af721e690f7ddc6bd0a5fbb1525b4515e"
 
   depends_on "aspell"
   depends_on "automake" => :build
@@ -38,7 +39,7 @@ class InkscapeLbe < Formula
   depends_on "potrace"
 
   depends_on "gtk+3"
-  depends_on "gtkmm3"
+  depends_on "gtkmm"
   depends_on "gdl"
 
   #needs :cxx11
