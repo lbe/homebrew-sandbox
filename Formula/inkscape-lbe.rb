@@ -14,7 +14,7 @@ class InkscapeLbe < Formula
   depends_on "cmake" => :build
   depends_on "dbus-glib"
   depends_on "desktop-file-utils"
-  depends_on "gdk_pixbuf"
+  depends_on "gdk-pixbuf"
   depends_on "gettext"
   depends_on "glibmm"
   depends_on "gsl"
